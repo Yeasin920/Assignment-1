@@ -269,3 +269,50 @@ margin-bottom: 20px;
     width:100%;
     border-radius: 48px;
 }
+
+
+
+.cntct-box{
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.cntct-title h1{
+    font-size: 70px;
+}
+.cntct-title{
+    max-width: 47%;
+}
+
+.form label{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.form input,.form textarea{
+    width: 350px;
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #757575;
+    background-color: #fff; 
+    margin: 10px 0;
+}
+.form-btn{
+    color: #fff;
+    background-color: #4E47FF;
+    width: 350px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+     transition: background 0.3s ease;
+}
+.form-btn:hover{
+    background-color: #110cb1;
+}
