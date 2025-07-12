@@ -218,5 +218,54 @@
 }
 .user-info small{
     color: rgba(128, 128, 128, 0.546);
-    font-size: 12px;
+}
+
+
+.focus-container{
+    background-color: #FFFFFF;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;padding: 50px;
+    flex-direction: column;
+    border-radius: 14px;
+}
+
+.focus-heading h1{
+    color: #000;
+    font-size: 50px;
+    font-weight: bold;
+text-align: center;
+margin-bottom: 20px;
+}
+.focus-heading p{
+    color: gray;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.fs-btn{
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 45px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    margin: 0 auto 20px auto;
+    transition: backgrund 0.3s ease;
+}
+.fs-btn:hover{
+    background-color: #110cb1;
+}
+
+
+.fs-img{
+    max-width: 78%;
+}
+.fs-img img{
+    width:100%;
+    border-radius: 48px;
 }
