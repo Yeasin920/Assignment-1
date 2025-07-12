@@ -41,7 +41,7 @@
     border-radius: 10px;
 }
 .btn:hover{
-    background-color: aquamarine;
+    background-color: #110cb1;
 }
 
 .banner{
@@ -114,3 +114,40 @@
 .action-img img{
     border-radius: 48px;
 }
+
+
+.prime{
+    background-color: #cccbf8;
+    border-radius: 24px;
+    width: 80%;
+    display:flex;
+    align-items: center;
+   justify-content: space-around;
+    margin: 100px auto;
+    padding: 50px 80px;
+}
+
+.prime-title  h1{
+    color: #252432;
+    font-size: 38px;
+    margin: 30px;
+    
+}
+.stars{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.star h3{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bolder;
+    text-align: center;
+}
+.star p{
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
